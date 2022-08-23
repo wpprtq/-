@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;list-style: none;}
+body{background:#fff9ed;  font-family:"微软雅黑"; font-size:14px; }
+a:link,a:visited{ text-decoration:none; color:#fff; font-size:16px;}
+/* header */
+.nav_bg{
+	width:100%;
+	height:120px;
+	background:url(../images/head_bg.jpg);
+}
+.nav_bg ul{
+	width:980px;
+	height:120px;
+	margin:0 auto;
+	
+}
+.nav_bg ul li{
+	float:left;
+	line-height:70px;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+}
+.nav_bg .logo{
+	width:175px;
+	height:120px;
+	background:url(../images/logo.png);
+}
+.nav_bg ul li{
+	display:inline-block;
+	width:120px;
+	height:90px;
+}
+.nav_bg ul a:hover{
+	display:inline-block;
+	width:120px;
+	height:90px;
+	background:url(../images/xuanfu.png);
+}
+
+#content{
+	width:980px;
+	margin:0 auto;
+}
+.style_bg{
+	width:908px;
+	height:330px;
+	background:#ec6e47;
+	padding:10px 36px 5px;
+}
+.style{
+	width:892px;
+	height:314px;
+	background:#fff;
+	padding:8px 10px 8px 6px;
+}
+.style dl{
+	width:279px;
+	height:313px;
+	float:left;
+	margin-left:4px;
+}
+.style .third{width:322px;}
+.style dt,.style dd{float:left;}
+.style .left1,.style .left3,.style .center1,.style .center3{width:162px;}
+.style .left2,.style .left4,.style .center2,.style .center4,.style .right2{width:117px;}
+.style .left1,.style .left2,.style .center1,.style .center2{margin-bottom:8px;}
+.style .left1{
+	height:169px;
+	background:url(../images/pic01.jpg) no-repeat;
+}
+.style .left2{
+	height:169px;
+	line-height:169px;
+}
+.style .left3{
+	height:137px;
+	background:url(../images/pic02.jpg) no-repeat;
+}
+.style .left4{
+	height:137px;
+	line-height:137px;
+}
+.style .center1{
+	height:117px;
+	background:url(../images/pic03.jpg) no-repeat;
+}
+.style .center2{
+	height:117px;
+	line-height:117px;
+}
+.style .center3{
+	height:188px;
+	background:url(../images/pic04.jpg) no-repeat;
+}
+.style .center4{
+	height:188px;
+	line-height:188px;
+}
+.style .right1{
+	width:205px;
+	height:314px;
+	background:url(../images/pic05.jpg) no-repeat;
+}
+.style .right2{
+	height:314px;
+	line-height:314px;
+}
+.style a{
+	display:block;
+	background:#242424;
+	text-align:center;
+}
+.style a:hover{background:#ea6c46;}
+
+
+
+
+
+
+
+
+
+
+
